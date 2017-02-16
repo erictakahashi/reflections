@@ -1,0 +1,14 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+- A bunch of metadata is created to keep track of the files in our repository
+- I need to start a repository to start versioning my files and keep control of the changes
+
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+- The staging area is a intermediate area
+	- Directory has all the files
+	- And the repository have the commits
+- Staging give us more control for commit
+	- I can add just some files that I want to be in the commit
