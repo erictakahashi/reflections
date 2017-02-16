@@ -1,0 +1,55 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+- We can see what's new
+- We can see what was removed
+- We can see ehanges
+	- So can easily identify if someone type anything accidentally in the code
+
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+- We can track all changes made
+	- So we don't replicate an error someone already made
+	- Improvements made in the code, so I will not implement a regression code
+
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+- Manual
+	- With manual commits I can determine when my code have a meaning, a logical purpose
+	- But I can forget to commit
+	- Can can commit 1 modification for a giant block of code - not good
+
+- Automatic
+	- It will keep my code versioned
+	- But the versions could not have a logical purpose - not good
+
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+- Multiple Files
+	- A functionality could involve more than 1 file, so it's important to track all the files related to that new functionality
+
+
+
+How can you use the commands git log and git diff to view the history of files?
+	- With git log we can see all the files changed in the versions
+		Using "git log --stat" we can see the commits and the files
+
+	- With git diff we can compare the changes between the commits
+
+
+
+How might using version control make you more confident to make changes that could break something?
+
+- Because I can return to previous versions of the code and check where a bug was introduced
+- I can even checkout to a previous commit and change the code
+
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+- I want to use git to changes files and track the changes
