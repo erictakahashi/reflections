@@ -12,3 +12,11 @@ How is the staging area different from the working directory and the repository?
 	- And the repository have the commits
 - Staging give us more control for commit
 	- I can add just some files that I want to be in the commit
+
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+- We can use 'git diff' and 'git diff --staged' to see what changes we made
+- Knowing what changes we made we can be sure of what is new
+- With that we can be sure if what was added is related to a logical change
