@@ -20,3 +20,10 @@ How can you use the staging area to make sure you have one commit per logical ch
 - We can use 'git diff' and 'git diff --staged' to see what changes we made
 - Knowing what changes we made we can be sure of what is new
 - With that we can be sure if what was added is related to a logical change
+
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+- In cases when I would develop a new experimental function that I'm not sure how it will work
+- The branch will allow me to have to stable version of my code in one branch, and the experimental stuffs in another branch
