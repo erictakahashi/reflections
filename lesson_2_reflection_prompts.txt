@@ -35,3 +35,11 @@ How do the diagrams help you visualize the branch structure?
 - The diagram shows the commit history
 - With this history we can trace back to see at what point a branch was created
 - And with that we can see the reachability of each branch
+
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+- The result of merging will a new commit
+- If a common file have different changes between the branches, the files will be combine to a single file containing all the changes
+- The parent of the merge commit will the commits of all branches merged
