@@ -43,3 +43,12 @@ What is the result of merging two branches together? Why do we represent it in t
 - The result of merging will a new commit
 - If a common file have different changes between the branches, the files will be combine to a single file containing all the changes
 - The parent of the merge commit will the commits of all branches merged
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+- Automatic merging is an easy way to commit
+	- If there's no conflicts, the automatic merge makes our job more easy
+- Manual merge are require when there're conflicts
+	- Git can figure which code is the right one
