@@ -42,3 +42,10 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 	- So, they can work with their own environment
 	- The problem with this approach is that it's hard to keep track of all changes made
 	- Each collaborator would have to manually compare the files, checking line by line, or using diff checker tool
+
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+- When I want to work in a new feature or other things that could "bug"
+	- That way I don't mess with the stable version in master branch
