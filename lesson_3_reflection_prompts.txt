@@ -30,3 +30,15 @@ What is the benefit of having a copy of the last known state of the remote store
 - We can known how different our local branch is since the last sync action
 - We can compare the local branch with the remote changes
 - We can work independelly, since the local copy of the remote branch will allow us to merge the branches
+
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+- The collaboration without Git / GitHub would be by directly editing a file in a shared server
+	- In this case each collaborator would have to wait for the other the make a new change
+	- So they could not work on a file independelly
+- Another way would be if each collaborator make a copy of the server code
+	- So, they can work with their own environment
+	- The problem with this approach is that it's hard to keep track of all changes made
+	- Each collaborator would have to manually compare the files, checking line by line, or using diff checker tool
